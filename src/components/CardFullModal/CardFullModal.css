@@ -1,0 +1,53 @@
+.full__card-modal {
+  font-family: "Roboto", sans-serif;
+}
+.full__card-modal > div img {
+  width: 100%;
+}
+.full__card-modal h1,
+p,
+h4 {
+  width: 500px;
+  height: 10px;
+  font-size: 1.3rem;
+}
+.full__card-modal h1 {
+  font-size: 2rem;
+  line-height: 1%;
+}
+.full__card-modal h4 {
+  color: #1c6e2b;
+}
+.full__card-modal > div .shop__img-btn {
+  position: absolute;
+  bottom: 125px;
+  right: 30px;
+  width: 35px;
+  font-size: 2rem;
+  transition: color, transform 600ms ease;
+  color: rgb(101, 101, 101);
+  cursor: pointer;
+}
+
+.full__card-modal > div .shop__img-btn:hover {
+  color: rgb(237, 0, 0);
+  transform: scale(1.3) translateY(-3px);
+}
+.full__card-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  overflow: auto;
+}
+.full__card-modal > div {
+  position: relative;
+  width: 700px;
+  margin: 10% auto;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 7px;
+}

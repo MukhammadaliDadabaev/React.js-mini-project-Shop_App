@@ -1,0 +1,32 @@
+.card-modal {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.card-modal img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.card-modal h2 {
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+.card-modal p {
+  margin-top: 7px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #797979;
+}
+.card-modal .delete-icon {
+  float: right;
+  color: rgb(217, 75, 75);
+  cursor: pointer;
+  transition: color, transform 700ms ease;
+}
+.card-modal .delete-icon:hover {
+  color: rgb(198, 0, 0);
+  transform: scale(1.5);
+}

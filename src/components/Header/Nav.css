@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.wrapper {
+  width: 234px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper li {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+}
+.wrapper li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.item {
+  margin: 0 20px;
+}
+.round {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.card-money a {
+  font-size: 1.5rem;
+}
+.karzina {
+  margin-left: 15px;
+}
+
+.header .top-icon a {
+  font-size: 2rem;
+  color: #52d67a;
+}
+/* ANIMATED li-item */
+.active {
+  position: relative;
+}
+
+li .page__overlay-btn:hover,
+li .page__overlay-btn.active {
+  color: #5ece7b;
+}
+
+/* nav shop-icon style */
+li {
+  position: relative;
+}
+.shop__nav-btn {
+  position: absolute;
+  top: -17px;
+  left: 12px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color, transform 700ms ease;
+}
+
+li .shop__nav-btn:hover,
+li .shop__nav-btn.active {
+  color: #dc3d3d;
+  transform: scale(1.3);
+}
+li .shop_count:hover,
+li .shop_count.active {
+  transform: scale(1.3);
+}
+
+.shop_count {
+  font-size: 11px;
+  width: 21px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3b2f;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  top: -23px;
+  left: 32px;
+  transition: transform 700ms ease;
+}
+/* card-modal-money styles */
+.shop-card {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+  width: 400px;
+  background-color: #fafafa;
+  box-shadow: 4px 5px 15px -7px #606060;
+  -webkit-box-shadow: 4px 5px 15px -7px #606060;
+  -moz-box-shadow: 4px 5px 15px -7px #606060;
+  z-index: 1000;
+  padding: 20px;
+  padding-bottom: 0;
+}
+/* header modal-card */
+.shop-card .money {
+  float: left;
+  width: 100%;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
